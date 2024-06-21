@@ -3,27 +3,27 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion"
 
 const myProjects = [
-  { projectTitle: "Html& Css project", category: ["css"], imgPath: "../../../public/1.png" },
+  { projectTitle: "Html& Css project", category: ["css"], imgPath: "/1.png" },
   {
     projectTitle: "js & css project",
     category: ["js"],
-    imgPath: "../../../public/2.png",
+    imgPath: "/2.png",
   },
-  { projectTitle: "css project", category: ["css"], imgPath: "../../../public/3.png" },
-  { projectTitle: "js & css project", category: ["js"], imgPath: "../../../public/4.png" },
-  { projectTitle: "react project", category: ["react"], imgPath: "../../../public/5.png" },
-  { projectTitle: "bootstrap  project", category: ["bootstrap"], imgPath: "../../../public/6.png" },
+  { projectTitle: "css project", category: ["css"], imgPath: "/3.png" },
+  { projectTitle: "js & css project", category: ["js"], imgPath: "/4.png" },
+  { projectTitle: "react project", category: ["react"], imgPath: "/5.png" },
+  { projectTitle: "bootstrap  project", category: ["bootstrap"], imgPath: "/6.png" },
   {
     projectTitle: "bootstrap project",
     category: ["bootstrap"],
-    imgPath: "../../../public/7.png",
+    imgPath: "/7.png",
   },
   {
     projectTitle: "react project",
     category: ["react"],
-    imgPath: "../../../public/8.jpeg",
+    imgPath: "/8.jpeg",
   },
-  { projectTitle: "API project", category: ["react"], imgPath: "../../../public/9.png" },
+  { projectTitle: "API project", category: ["react"], imgPath: "/9.png" },
 ];
 const Main = () => {
   const [current, setCurrent] = useState("all");
