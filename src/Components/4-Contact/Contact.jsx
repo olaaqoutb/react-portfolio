@@ -30,10 +30,11 @@ const Contact = () => {
         Contact Us
       </h1>
       <p className="sub-title">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis
-        accusantium modi ullam distinctio iste at dolorem dolorum consequuntur
-        reprehenderit eum mollitia inventore optio similique soluta, neque ea
-        aspernatur ratione?
+    
+
+
+Feel free to reach out to me for any inquiries, collaborations, or project discussions. I am always open to new opportunities and would love to hear from you. You can contact me through the form below or directly via whatsApp at [01111043828]. Looking forward to connecting with you!
+
       </p>
       <div style={{ justifyContent: "space-between" }} className="flex">
         <form onSubmit={handleSubmit}>

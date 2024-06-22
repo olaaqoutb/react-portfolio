@@ -3,27 +3,27 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion"
 
 const myProjects = [
-  { projectTitle: "Html& Css project", category: ["css"], imgPath: "/1.png" },
+  { projectTitle: "Html & Css project", category: ["css"], imgPath: "/img1.png",projectDesc:"This is a landing page made with HTML and CSS. I also used Bootstrap for the footer and the form, and I customized it to suit my needs." },
   {
     projectTitle: "js & css project",
     category: ["js"],
-    imgPath: "/2.png",
+    imgPath: "/img2.png",projectDesc:"This is a home page with a background video of a movie, a brief description of the movie, and a button to watch the movie. When you click this button, it takes you to another page with details about the movie and its trailer. The movie will be available soon. There is also a toggle switch for light and dark mode, which I implemented using JavaScript. At the bottom, there is a section with a number of various movies."
   },
-  { projectTitle: "css project", category: ["css"], imgPath: "/3.png" },
-  { projectTitle: "js & css project", category: ["js"], imgPath: "/4.png" },
-  { projectTitle: "react project", category: ["react"], imgPath: "/5.png" },
-  { projectTitle: "bootstrap  project", category: ["bootstrap"], imgPath: "/6.png" },
+  { projectTitle: "css project", category: ["css"], imgPath: "/img3.png" ,projectDesc:"This is a sidebar with a list of movie categories. There are six sections: Western, Arabic, Indian, Cartoon, and movies from the years 2020, 2021, 2022, and 2023. I created this using CSS and Bootstrap." },
+  { projectTitle: "js & css project", category: ["js"], imgPath: "/img4.png",projectDesc:"This is the details page for the movie that appears when you click the watch button. I used HTML and CSS for everything, and Bootstrap for the footer. For the dark and light mode toggle, I used JavaScript." },
+  { projectTitle: "react project", category: ["react"], imgPath: "/img5.png",projectDesc:"This is a page from the categories section, specifically the Western movies section. It contains a large number of diverse movies, each with its own separate page for details and watching the movie. I created this using React."},
+  { projectTitle: "bootstrap  project", category: ["bootstrap"], imgPath: "/img6.png",projectDesc: "This is a website that mimics Noon, which I created entirely with Bootstrap. I definitely did some customization to achieve this final look."},
   {
     projectTitle: "bootstrap project",
     category: ["bootstrap"],
-    imgPath: "/7.png",
+    imgPath: "/img7.png",projectDesc:"This is a website that mimics Noon, which I created entirely with Bootstrap. I definitely did some customization to achieve this final look.."
   },
   {
     projectTitle: "react project",
     category: ["react"],
-    imgPath: "/8.jpeg",
+    imgPath: "/img8.jpeg",projectDesc:"This is a to-do list where you can write down your tasks, add them, and then either delete them or move them up and down based on their importance. It has a simple, user-friendly, and beautiful design that I created using React."
   },
-  { projectTitle: "API project", category: ["react"], imgPath: "/9.png" },
+  { projectTitle: "API project", category: ["react"], imgPath: "/img9.png",projectDesc:"This is a code bug fixer that I created using API and JavaScript. You can add the code with an error, and it will fix it and provide you with the corrected code. It has a beautiful and user-friendly design." },
 ];
 const Main = () => {
   const [current, setCurrent] = useState("all");
@@ -121,10 +121,7 @@ const Main = () => {
               <div style={{ width: "266px" }} className="box ">
                 <h1 className="title">{item.projectTitle} </h1>
                 <p className="sub-title">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  quia esse ut eveniet? Fugiat aut nulla modi, pariatur minima
-                  exercitationem. Sed placeat maxime accusamus omnis soluta eos,
-                  quidem aperiam rerum?
+                 {item.projectDesc}
                 </p>
                 <div className="flex icons">
                   <div style={{ gap: "11px" }} className="flex">

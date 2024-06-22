@@ -19,15 +19,13 @@ const Hero = () => {
          initial={{opacity:0}}
          animate={{opacity:1}}
          transition={{duration:2}}
-        className="title">Front End Developer And Software Engineer.
+        className="title">Front End Developer 
          
         </motion.h1>
 
         <p className="sub-title">
           {" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          corporis dolores natus perferendis quibusdam ipsa minima nam tempora,
-          as?
+          Specialized in developing engaging user interfaces as a Front-End programmer, while simultaneously pursuing my studies in the French Literature department. I believe in the importance of integrating science and arts to achieve comprehensive experiences.
         </p>
         <div className="all-icons flex">
           <div className="icon  icon-social-twitter"></div>
