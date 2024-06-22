@@ -2,6 +2,7 @@ import "./Main.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion"
 
+
 const myProjects = [
   { projectTitle: "Html & Css project", category: ["css"], imgPath: "/img1.png",projectDesc:"This is a landing page made with HTML and CSS. I also used Bootstrap for the footer and the form, and I customized it to suit my needs." },
   {
@@ -9,7 +10,7 @@ const myProjects = [
     category: ["js"],
     imgPath: "/img2.png",projectDesc:"This is a home page with a background video of a movie, a brief description of the movie, and a button to watch the movie. When you click this button, it takes you to another page with details about the movie and its trailer. The movie will be available soon. There is also a toggle switch for light and dark mode, which I implemented using JavaScript. At the bottom, there is a section with a number of various movies."
   },
-  { projectTitle: "css project", category: ["css"], imgPath: "/img3.png" ,projectDesc:"This is a sidebar with a list of movie categories. There are six sections: Western, Arabic, Indian, Cartoon, and movies from the years 2020, 2021, 2022, and 2023. I created this using CSS and Bootstrap." },
+  { projectTitle: "css project", category: ["css"], imgPath:"/img1.png" ,projectDesc:"This is a sidebar with a list of movie categories. There are six sections: Western, Arabic, Indian, Cartoon, and movies from the years 2020, 2021, 2022, and 2023. I created this using CSS and Bootstrap." },
   { projectTitle: "js & css project", category: ["js"], imgPath: "/img4.png",projectDesc:"This is the details page for the movie that appears when you click the watch button. I used HTML and CSS for everything, and Bootstrap for the footer. For the dark and light mode toggle, I used JavaScript." },
   { projectTitle: "react project", category: ["react"], imgPath: "/img5.png",projectDesc:"This is a page from the categories section, specifically the Western movies section. It contains a large number of diverse movies, each with its own separate page for details and watching the movie. I created this using React."},
   { projectTitle: "bootstrap  project", category: ["bootstrap"], imgPath: "/img6.png",projectDesc: "This is a website that mimics Noon, which I created entirely with Bootstrap. I definitely did some customization to achieve this final look."},
